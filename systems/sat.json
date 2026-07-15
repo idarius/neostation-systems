@@ -16,7 +16,8 @@
     "folders": [
       "sat",
       "saturn",
-      "Sega Saturn"
+      "Sega Saturn",
+      "saturnjp"
     ],
     "colors": [
       "#CFD8DC",
@@ -92,6 +93,7 @@
     },
     {
       "name": "RetroArch64 Beetle Saturn",
+      "default_core": true,
       "unique_id": "sat.ra64.mednafen_saturn",
       "description": "Supported extensions: ccd, chd, cue, m3u, toc.",
       "is_retroachievements_compatible": true,
@@ -125,6 +127,7 @@
     },
     {
       "name": "RetroArch32 Beetle Saturn",
+      "default_core": true,
       "unique_id": "sat.ra32.mednafen_saturn",
       "description": "Supported extensions: ccd, chd, cue, m3u, toc.",
       "is_retroachievements_compatible": true,
@@ -158,7 +161,7 @@
     },
     {
       "name": "RetroArch Beetle Saturn",
-      "default": true,
+      "default_core": true,
       "unique_id": "sat.ra.mednafen_saturn",
       "description": "Supported extensions: ccd, chd, cue, m3u, toc.",
       "is_retroachievements_compatible": true,

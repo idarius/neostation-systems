@@ -39,7 +39,7 @@ Each file in this folder defines one system (console/platform) and all its suppo
 {
   "name": "RetroArch Genesis Plus GX",
   "unique_id": "genesis.ra.genesis_plus_gx",
-  "default": true,
+  "default_core": true,
   "description": "Supported extensions: bin, md, zip.",
   "is_retroachievements_compatible": true,
   "platforms": {
