@@ -2,10 +2,6 @@
   "system": {
     "id": "xbox",
     "name": "Xbox",
-    "neosync": {
-      "sync": false,
-      "sync_folder": null
-    },
     "short_name": "Xbox",
     "details": {
       "manufacturer": "Microsoft",
@@ -44,6 +40,17 @@
       }
     },
     {
+      "name": "Standalone Xenra",
+      "unique_id": "xbox.ali.xanite.green",
+      "is_retroachievements_compatible": false,
+      "description": "Supported extensions: xiso, iso.",
+      "platforms": {
+        "android": {
+          "launch_arguments": "-n Ali.Xanite.green/Ali.Xanite.LauncherActivity -d \"{file.uri}\""
+        }
+      }
+    },
+    {
       "name": "Standalone hakuX",
       "unique_id": "xbox.com.rfandango.haku_x",
       "is_retroachievements_compatible": false,
@@ -51,6 +58,23 @@
       "platforms": {
         "android": {
           "launch_arguments": "-n com.rfandango.haku_x/.LauncherActivity -d \"{file.uri}\""
+        }
+      }
+    },
+    {
+      "name": "Standalone xemu",
+      "unique_id": "xbox.app.xemu-project.xemu",
+      "is_retroachievements_compatible": false,
+      "description": "Supported extensions: xiso, iso.",
+      "platforms": {
+        "windows": {
+          "executable": "xemu.exe",
+          "args": "-full-screen -dvd_path \"{file.path}\""
+        },
+        "linux": {
+          "executable": "xemu",
+          "emudeck_launcher": "xemu-emu.sh",
+          "args": "-full-screen -dvd_path \"{file.path}\""
         }
       }
     }

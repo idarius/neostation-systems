@@ -1,0 +1,53 @@
+{
+  "system": {
+    "id": "ps5",
+    "name": "Sony PlayStation 5",
+    "short_name": "PS5",
+    "details": {
+      "manufacturer": "Sony",
+      "release_date": "2020-11-12",
+      "description": "Sony's PlayStation 5, streamed from the console over Remote Play. Each file is a tile for a game; launching opens the Remote Play client, the game itself is picked on the PS5 dashboard.",
+      "type": "console"
+    },
+    "ids": {
+      "screenscraper": 284,
+      "retroachievements": null
+    },
+    "folders": [
+      "ps5",
+      "playstation5"
+    ],
+    "colors": [
+      "#00439C",
+      "#000000"
+    ],
+    "extensions": [
+      "ps5"
+    ]
+  },
+  "emulators": [
+    {
+      "name": "Standalone CloudPad (Remote Play)",
+      "default_standalone": true,
+      "unique_id": "ps5.cloudpad",
+      "description": "Supported extensions: ps5. Opens CloudPad on its console list; the Remote Play protocol cannot start a specific game.",
+      "is_retroachievements_compatible": false,
+      "platforms": {
+        "android": {
+          "launch_arguments": "-n com.cloudpad.stream/com.metallic.chiaki.main.MainActivity"
+        }
+      }
+    },
+    {
+      "name": "Standalone Pylux (Remote Play)",
+      "unique_id": "ps5.pylux",
+      "description": "Supported extensions: ps5. Opens Pylux on its console list; the Remote Play protocol cannot start a specific game.",
+      "is_retroachievements_compatible": false,
+      "platforms": {
+        "android": {
+          "launch_arguments": "-n com.pylux.stream/com.metallic.chiaki.main.MainActivity"
+        }
+      }
+    }
+  ]
+}
