@@ -200,7 +200,8 @@
       "is_retroachievements_compatible": true,
       "platforms": {
         "android": {
-          "launch_arguments": "-n xyz.aethersx2.android/.EmulationActivity -a android.intent.action.MAIN -e bootPath \"{file.localuri}\" --activity-clear-task --activity-clear-top"
+          "launch_arguments": "-n xyz.aethersx2.android/.EmulationActivity -a android.intent.action.MAIN -e bootPath \"{file.localuri}\" --activity-clear-task --activity-clear-top",
+          "m3u_first_disc": true
         }
       }
     },
@@ -211,7 +212,8 @@
       "is_retroachievements_compatible": true,
       "platforms": {
         "android": {
-          "launch_arguments": "-n xyz.aethersx2.custom/.EmulationActivity -a android.intent.action.MAIN -e bootPath \"{file.localuri}\" --activity-clear-task --activity-clear-top"
+          "launch_arguments": "-n xyz.aethersx2.custom/.EmulationActivity -a android.intent.action.MAIN -e bootPath \"{file.localuri}\" --activity-clear-task --activity-clear-top",
+          "m3u_first_disc": true
         }
       }
     },
@@ -222,7 +224,8 @@
       "is_retroachievements_compatible": true,
       "platforms": {
         "android": {
-          "launch_arguments": "-n xyz.aethersx2.tturnip/xyz.aethersx2.android.EmulationActivity -a android.intent.action.MAIN -e bootPath \"{file.localuri}\" --activity-clear-task --activity-clear-top"
+          "launch_arguments": "-n xyz.aethersx2.tturnip/xyz.aethersx2.android.EmulationActivity -a android.intent.action.MAIN -e bootPath \"{file.localuri}\" --activity-clear-task --activity-clear-top",
+          "m3u_first_disc": true
         }
       }
     },
@@ -233,7 +236,8 @@
       "is_retroachievements_compatible": true,
       "platforms": {
         "android": {
-          "launch_arguments": "-n xyz.aethersx2.cturnip/xyz.aethersx2.android.EmulationActivity -a android.intent.action.MAIN -e bootPath \"{file.localuri}\" --activity-clear-task --activity-clear-top"
+          "launch_arguments": "-n xyz.aethersx2.cturnip/xyz.aethersx2.android.EmulationActivity -a android.intent.action.MAIN -e bootPath \"{file.localuri}\" --activity-clear-task --activity-clear-top",
+          "m3u_first_disc": true
         }
       }
     },
@@ -244,7 +248,8 @@
       "is_retroachievements_compatible": true,
       "platforms": {
         "android": {
-          "launch_arguments": "-n come.nanodata.armsx2/kr.co.iefriends.pcsx2.MainActivity -a android.intent.action.VIEW -d \"{file.uri}\""
+          "launch_arguments": "-n come.nanodata.armsx2/kr.co.iefriends.pcsx2.MainActivity -a android.intent.action.VIEW -d \"{file.uri}\"",
+          "m3u_first_disc": true
         }
       }
     },
@@ -255,7 +260,8 @@
       "is_retroachievements_compatible": true,
       "platforms": {
         "android": {
-          "launch_arguments": "-n com.armsx2/.Main -a android.intent.action.VIEW -d \"{file.uri}\""
+          "launch_arguments": "-n com.armsx2/.Main -a android.intent.action.VIEW -d \"{file.uri}\"",
+          "m3u_first_disc": true
         }
       }
     },
@@ -266,7 +272,8 @@
       "is_retroachievements_compatible": true,
       "platforms": {
         "android": {
-          "launch_arguments": "-n come.nanodata.armsx2.debug/kr.co.iefriends.pcsx2.activities.MainActivity -a android.intent.action.VIEW -d \"{file.uri}\""
+          "launch_arguments": "-n come.nanodata.armsx2.debug/kr.co.iefriends.pcsx2.activities.MainActivity -a android.intent.action.VIEW -d \"{file.uri}\"",
+          "m3u_first_disc": true
         }
       }
     },
